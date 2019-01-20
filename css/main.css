@@ -87,8 +87,8 @@ ul.projects {
 }
 
 ul.projects li {
-    width: 304px;
-    height: 266px;
+    width: 294px;
+    height: 255px;
     color: white;
     text-align: center;
     
@@ -98,24 +98,36 @@ ul.projects li {
 }
 
 .menu a, .menu a:visited {
-    width: 304px;
-    height: 266px;
+    width: 294px;
+    height: 255px;
     display: inline-block;
-    margin: 42px 0;
+    margin: 27px 0 0 -14px;
     color: white;
 }
 
-.menu a {
+.menu a, .menu .shadow {
     opacity: 0;
 }
 
-.menu a:hover {
+.menu a:hover, .menu .shadow:hover {
     opacity: 1;
 }
 
 ul.projects li {
     position: absolute;
     display: inline-block;
+}
+ul.projects li .shadow {
+    width: 274px;
+    height: 237px;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    background-image: url(../img/ps.png);
+}
+
+ul.projects li a {
+    z-index: 100;
 }
 
 ul.projects .p1 {
@@ -124,6 +136,7 @@ ul.projects .p1 {
     margin: 0 -152px;
     top: 40px;
 }
+
 ul.projects .p2 {
     background-image: url(../img/p2.png);
     left: 30px;
@@ -149,4 +162,14 @@ ul.projects .p5 {
     .header ul {
         width: 88%;
     }
+}
+
+.team {
+    height: 960px;
+    background-color: #2b3729;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+    background-position-x: 50%; 
+    position: relative;
 }

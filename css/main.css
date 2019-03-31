@@ -301,10 +301,99 @@ ul.projects .p5 {
   position: absolute;
   bottom: 0;
 }
-.box2 p, a{
-    font-family: "Marck Script", cursive;
-    font-size: 48px;
-    color: #ffffff;
-    padding: 32px;
-    margin: 0;
+.box2 p,
+a {
+  font-family: "Marck Script", cursive;
+  font-size: 48px;
+  color: #ffffff;
+  padding: 32px;
+  margin: 0;
+}
+
+.book h2 {
+  font-family: "Marck Script", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: 2b3729;
+}
+
+.book p {
+  font-family: "Marck Script", cursive;
+  font-size: 35px;
+  text-align: left;
+  padding: 80px 50% 100px 50px;
+}
+
+.book img {
+  float: right;
+  padding: 0 50px 60 0;
+}
+
+.book iframe {
+  padding: 60px 0 60px 0;
+}
+
+.textbook {
+  text-align: center;
+  font-family: "Marck Script", cursive;
+  font-size: 35px;
+  padding: 60px 90px;
+  color: #2b3729;
+}
+
+.ifbox {
+  display: block;
+  padding: auto 0;
+  text-align: center;
+}
+
+.intbook {
+  padding: 50px;
+}
+
+.intbook img.right {
+  width: 420px;
+  height: 520px;
+  float: right;
+  margin-left: 70px;
+}
+
+.intbook h2 {
+  font-family: "Marck Script", cursive;
+  font-size: 70px;
+  text-align: center;
+  color: 2b3729;
+}
+
+.intbook p {
+  padding-top: 100px;
+  font-family: "Marck Script", cursive;
+  font-size: 35px;
+  text-align: left;
+}
+
+.intbook .box {
+  margin: 100px 0;
+  width: 640px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  height: 110px;
+}
+
+.graph {
+  text-align: center;
+}
+
+.fblock {
+  clear: both;
+}
+.fblock::after {
+  float: none;
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.book .video  {
+  padding: 160px 50% 100px 70px;
 }
